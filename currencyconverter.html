@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap" rel="stylesheet">
+    <script type="text/javascript" src="converter.js"></script>
+    <title>Currency Converter</title>
+</head>
+
+<body>
+    <main>
+        <h1>Currency Converter</h1>
+
+        <form>
+            Amount to Convert:
+            <input type="number" id="amount" autofocus>
+            <br><br>
+            <label for="onhand">From: </label>
+            <select name="onhand" id="onhand">
+                <option value="euro">Euro</option>
+                <option value="usd">US Dollar</option>
+                <option value="cad">Canadian Dollar</option>
+                <option value="btc">Bitcoin Digital Currency</option>
+                <option value="eth">Ethereum Digital Currency</option>
+            </select>
+
+            <label for="converted">To: </label>
+            <select name="converted" id="converted">
+                <option value="euro2">Euro</option>
+                <option value="usd2">US Dollar</option>
+                <option value="cad2">Canadian Dollar</option>
+                <option value="btc2">Bitcoin Digital Currency</option>
+                <option value="eth2">Ethereum Digital Currency</option>
+            </select>
+        </form>
+        <br>
+        <button type="submit" value="converted" id="convert" onclick="convert()">Convert</button>
+
+        <br><br>
+        <div id="total"></div>
+    </main>
+</body>
+
+</html>

@@ -1,0 +1,40 @@
+/*Currency conversion date: October 31*/
+body {
+    background-image: url("bg.jpg");
+    background-size: contain;
+}
+
+main {
+    background-color: #d8e8e7e8;
+    margin-top: 5%;
+    margin-right: 36%;
+    margin-left: 36%;
+    padding: 5%;
+    font-family: 'Share Tech Mono', monospace;
+    border: solid #287290 5px;
+}
+
+h1 {
+    text-align: center;
+    border: solid black 1px;
+    box-shadow: 10px 10px 8px #dcdc7f;
+}
+
+form {
+    font-size: larger;
+    display: block;
+    text-align: left;
+}
+
+button {
+    margin-left: 80%;
+    background-color: #dcdc7f;
+}
+
+#total {
+    font-size: xx-large;
+    text-align: center;
+    background-color: rgb(246, 255, 0);
+    font-weight: bold;
+    box-shadow: 10px 10px 8px #dcdc7f;
+}
